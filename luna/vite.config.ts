@@ -12,6 +12,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
+  base: '/LunaDay/',  // ⚠️ 這裡要跟你的 GitHub repo 名稱一模一樣
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
